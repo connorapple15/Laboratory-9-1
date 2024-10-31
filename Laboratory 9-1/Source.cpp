@@ -27,3 +27,8 @@ void printEvenValues(int arr[], int size) {
 		}
 	}
 }
+void printReversedOrder(int arr[], int size) {
+	for (i = size - 1; i >= 0; i--) {
+		cout << arr[i] << "";
+	}
+}
