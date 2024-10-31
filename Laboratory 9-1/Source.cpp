@@ -32,3 +32,6 @@ void printReversedOrder(int arr[], int size) {
 		cout << arr[i] << "";
 	}
 }
+void printFirstAndLast(int arr[], int size) {
+	cout << arr[0] << "" << arr[size - 1];
+}
