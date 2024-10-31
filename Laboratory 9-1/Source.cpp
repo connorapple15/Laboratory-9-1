@@ -15,5 +15,8 @@ void printAllElements(int arr[], int size) {
 		cout << arr[i] << "";
 	}
 }
-
+void printEvenIndices(int arr[], int size) {
+	for (i = 0; i < size; i += 2) {
+		cout << arr[i] << "";
+	}
 }
