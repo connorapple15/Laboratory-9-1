@@ -20,3 +20,10 @@ void printEvenIndices(int arr[], int size) {
 		cout << arr[i] << "";
 	}
 }
+void printEvenValues(int arr[], int size) {
+	for (i = 0; i < size; i++) {
+		if (arr[i] % 2 = 0) {
+			cout << arr[i] << "";
+		}
+	}
+}
